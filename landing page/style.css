@@ -1,0 +1,191 @@
+.nav{
+    background-color: rgb(35, 35, 35);
+    overflow: hidden;
+}
+
+.nav span{
+    margin-left: 200px;
+    padding: 5px;
+    display: flex;
+    gap: 3rem;
+    
+}
+
+.nav span a{
+    color: white;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
+
+.con1 .span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+    gap: 3rem;
+}
+
+.button .span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.con2 .span{
+    text-align: center;
+    padding: .5rem 0;
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
+
+.con3 .span{
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.con3 .awards .span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 0 3rem;
+}
+
+.con3 .award{
+    border: 1px solid black;
+    border-radius: .5rem;
+    padding: 1rem 0;
+
+}
+
+.top2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.last .span{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
+
+.last1{
+    margin: 2rem 3rem;
+}
+
+
+
+
+
+
+@media  screen and (max-width: 660px) {
+
+    .nav span {
+        overflow: hidden;
+        display: flex;
+        margin-left: 2rem;
+        gap: 1rem;
+    }
+    .head {
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 4rem;
+        background-color: rgb(59, 59, 59);
+        color: white;
+    }
+
+    .head h2 {
+        font-size: 20px;
+    }
+    .head p {
+        font-size: 14px;
+    }
+  
+    .con1 .span{
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        
+    }
+
+    .pic{
+        /* width: auto; */
+        padding-top: 1rem;
+    }
+
+    .top1{
+        padding: 0 2rem;
+    }
+
+    .button .span{
+        gap: 0;
+        margin: 1rem 0;
+    }
+    
+    .con2 .span{
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .con2 .span p{
+        padding: 0 2rem;
+    }
+
+    .con3 .span{
+        text-align: center;
+        margin: 1rem 0;
+    }
+
+    .con3 .awards .span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        margin: 0 3rem;
+    }
+
+    .top2 {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 1rem;
+    }
+
+    .last .span{
+        overflow: hidden;
+       display: block;
+        background-color: rgb(59, 59, 59);
+        color: white;
+    }
+
+    .last .span .last1{
+        margin: 1rem 3rem;
+        padding: .5rem 0;
+    }
+
+}
